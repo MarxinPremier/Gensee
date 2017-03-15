@@ -1,0 +1,141 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gensee.fastsdk.ui.PublishFragment">
+
+    <include layout="@layout/gs_publish_video_layout" />
+
+    <include layout="@layout/gs_publish_top_layout" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|right">
+
+        <include layout="@layout/gs_publish_btns_layout" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="@dimen/gs_chat_width"
+            android:layout_height="@dimen/gs_chat_height"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:gravity="bottom|left"
+            android:orientation="vertical">
+
+            <com.wangzuo.libgensee.ui.view.xlistview.XListView
+                android:id="@+id/gs_chat_lv"
+                style="@style/gs_both_match_parent"
+                android:cacheColorHint="@android:color/transparent"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="6dp"
+                android:listSelector="@android:color/transparent"
+                android:scrollbars="none"
+                android:stackFromBottom="true"></com.wangzuo.libgensee.ui.view.xlistview.XListView>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/gs_ly_user_operate"
+            layout="@layout/gs_user_operate_layout"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/gs_ly_have_an_as_on"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:shadowColor="@color/gs_black"
+            android:shadowRadius="1"
+            android:text="@string/gs_as_is_on"
+            android:textColor="@color/gs_white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/gs_tv_stop_as"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:shadowColor="@color/gs_black"
+            android:shadowRadius="1"
+            android:text="@string/gs_end"
+            android:textColor="#e43e36"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/gs_ly_idc"
+            layout="@layout/gs_idc_layout"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/gs_btn_start_live"
+        android:layout_width="123dp"
+        android:layout_height="41dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/gs_join_btn"
+        android:text="@string/gs_start_live"
+        android:textColor="@color/gs_white"
+        android:textSize="15sp"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/gs_ly_counter_down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:shadowColor="@color/gs_black"
+            android:shadowRadius="1"
+            android:text="@string/gs_as_video_active"
+            android:textColor="@color/gs_white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/gs_tv_counter_down"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:shadowColor="@color/gs_black"
+            android:shadowRadius="1"
+            android:textColor="@color/gs_white"
+            android:textSize="140sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/gs_public_record_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/gs_top_layout_margin"
+        android:layout_marginTop="100dp"
+        android:padding="5dp"
+        android:text="录制" />
+
+</RelativeLayout>

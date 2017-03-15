@@ -1,0 +1,27 @@
+<resources>
+
+    <dimen name="gs_ic_width">40dp</dimen>
+    <dimen name="gs_ic_margin">10dp</dimen>
+    <dimen name="gs_normal_margin">10dp</dimen>
+
+    <!-- chat -->
+    <dimen name="gs_chat_bottom">49dp</dimen>
+    <dimen name="gs_chat_bottom_left">10dp</dimen>
+    <dimen name="gs_chat_bottom_right_1">10dp</dimen>
+    <dimen name="gs_chat_bottom_right_2">15dp</dimen>
+    <dimen name="gs_chat_send">15sp</dimen>
+    <dimen name="gs_chat_editview_context">12sp</dimen>
+    <dimen name="gs_emotion_panel_height">110dp</dimen>
+    <dimen name="gs_msg_bottom_ly">35dp</dimen>
+    <dimen name="gs_msg_bottom_tv">13sp</dimen>
+    <dimen name="gs_chat_width">250dp</dimen>
+    <dimen name="gs_chat_height">210dp</dimen>
+
+    <dimen name="gs_top_layout_margin">10dp</dimen>
+    <dimen name="gs_idc_item_height">56dp</dimen>
+    <dimen name="gs_idc_item_text_size">18sp</dimen>
+
+
+    <!--TextSize-->
+    <dimen name="gs_ts_title">18sp</dimen>
+</resources>

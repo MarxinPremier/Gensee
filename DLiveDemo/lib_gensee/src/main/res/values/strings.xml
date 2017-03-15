@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="gs_sure">OK</string>
+    <string name="gs_sure_1">OK</string>
+    <string name="gs_join_reconnecting">Loading…</string>
+    <string name="gs_i_known">OK</string>
+    <string name="gs_exit_webcast">Do you want to exit the webcast?</string>
+    <string name="gs_end_webcast">Do you want to END the webcast?</string>
+    <string name="gs_cancel">Cancel</string>
+    <string name="gs_net_disconnect">Network error. Please check your network connection.</string>
+    <string name="gs_exit_tip">exit program</string>
+    <string name="gs_net_have_disconnect">Network disconnected...</string>
+    <string name="gs_net_have_disconnect_tip">Network disconnected.</string>
+    <string name="gs_net_connecting">Connecting to server. Please wait...</string>
+    <string name="gs_join_panelist">Sorry, but you may not join webcast as a panelist in this app. Please re-enter as an ordinary attendee.</string>
+
+    <!-- error code -->
+    <string name="gs_domain_error">Please check the domain name.</string>
+    <string name="gs_error_data_timeout">Data expired</string>
+    <string name="gs_error_service">Incorrect service</string>
+    <string name="gs_error_param">Incorrect param</string>
+    <string name="gs_error_number_unexist">Inexistent ID</string>
+    <string name="gs_error_token">Wrong password</string>
+    <string name="gs_error_login">Wrong username or password</string>
+    <string name="gs_error_role">Role Required</string>
+    <string name="gs_error_fail_webcast">Invalid ID</string>
+    <string name="gs_error_webcast_unstart">Not started</string>
+    <string name="gs_error_isonly_web">Support web only</string>
+    <string name="gs_error_room_unenable">Invalid ID</string>
+    <string name="gs_error_owner_error">Internal Problem</string>
+    <string name="gs_error_invalid_address">Invalid ID</string>
+    <string name="gs_error_room_overdue">Overdue</string>
+    <string name="gs_error_authourization_not_enough">Not enough authority</string>
+    <string name="gs_error_untimely">The activity has not started yet.</string>
+    <string name="gs_error_unsupport_mobile">Do not support mobile</string>
+
+    <!-- xlistview -->
+    <string name="gs_xlistview_header_hint_normal">Pull to refresh</string>
+    <string name="gs_xlistview_header_hint_ready">Release to load data</string>
+    <string name="gs_xlistview_header_hint_loading">Loading...</string>
+    <string name="gs_xlistview_header_last_time">Latest update：</string>
+    <string name="gs_xlistview_footer_hint_normal">More</string>
+    <string name="gs_xlistview_footer_hint_ready">Release to load more</string>
+    <!-- chat -->
+    <string name="gs_chat_send">Send</string>
+    <string name="gs_chat_sys">System info</string>
+    <string name="gs_chat_to">&amp;gt;</string>
+    <string name="gs_chat_me">Me</string>
+    <string name="gs_chat_say">:</string>
+    <string name="gs_chat_unenable">All silenced</string>
+    <string name="gs_chat_quickly">Too frequent message submission. Please try later.</string>
+    <string name="gs_chat_publicchat_open">Chat enabled</string>
+    <string name="gs_chat_publicchat_close">Chat disabled</string>
+    <string name="gs_chat_mode_only_pub">Public chat only</string>
+    <string name="gs_chat_mode_only_private">Private chat only</string>
+    <!-- private chat -->
+    <!-- tip -->
+    <string name="gs_leave_err_eject_tip">You are removed from the activity.</string>
+    <string name="gs_leave_err_close_tip">Activity over. Thank you!</string>
+    <string name="gs_leave_err_ip_deny">Your IP is banned.</string>
+    <!-- webcast -->
+    <string name="gs_leave_webcast_err_timeup">The activity is overdue. Click \'OK\' to exit.</string>
+    <string name="gs_join_webcast_err_param">This webpage may be overdue or the activity is over.Please return to the join page to input the password.</string>
+    <string name="gs_join_webcast_err_codec">You cannot access, because the specified audio coding doesn\'t match this activity.</string>
+    <string name="gs_join_webcast_err_host">Sorry, this role is taken and you cannot join.</string>
+    <string name="gs_join_webcast_err_license">There are too many people in the activity. Please try to join later.</string>
+    <string name="gs_join_webcast_err_locked">You cannot access as the activity is locked.</string>
+    <string name="gs_join_webcast_err_ip">You cannot access because your IP is banned.</string>
+    <string name="gs_join_webcast_err_third_auth">Third-party authentication failure</string>
+    <string name="gs_join_webcast_err_too_early">Activity has not started yet. Please join later.</string>
+    <string name="gs_join_webcast_timeout">Timeout</string>
+    <string name="gs_cast_status_ing">Live</string>
+    <string name="gs_cast_status_pause">Paused</string>
+    <string name="gs_cast_status_notstart">Not Started</string>
+    <string name="gs_cast_status_end">Over</string>
+
+
+    <!-- more -->
+    <string name="gs_net_3g">Your device is consuming data flow and will incur fees. Do you want to continue?</string>
+    <string name="gs_net_2g">Your device is consuming data flow and will incur fees. Do you want to continue?</string>
+    <string name="gs_net_4g">Your device is consuming data flow and will incur fees. Do you want to continue?</string>
+    <string name="gs_net_x_g_host">Your device is consuming data flow and will incur fees. Do you want to continue?</string>
+    <string name="gs_net_no_network">No network available</string>
+    <string name="gs_exit">Exit</string>
+    <string name="gs_end">End</string>
+    <string name="gs_continues">Continue</string>
+    <string name="gs_diagnosis_end">Bug report sent</string>
+    <string name="gs_diagnosis_ing">Sending bug report</string>
+    <string name="gs_diagnosis_fail">Failed to send bug report</string>
+    <!-- idc -->
+    <string name="gs_idc_no_data">No network available</string>
+
+    <!-- upgrade -->
+    <string name="gs_no_video">No video</string>
+    <string name="gs_audio_closed">Audio off</string>
+    <string name="gs_audio_opened">Audio on</string>
+    <string name="gs_mic_hang_up">Off</string>
+    <string name="gs_mic_open">Your microphone is on </string>
+     <string  name="gs_reminder_open_mic">Do you want to turn on your microphone?</string>
+    <string name="gs_accept_mic_open">open</string>
+    <string name="gs_accept_mic_refuse">refuse</string>
+
+    <!-- tab -->
+    <!-- bright volume -->
+    <!-- pub client -->
+    <string name="gs_start_live">Start</string>
+    <string name="gs_live_pause">Webcast paused</string>
+    <string name="gs_live_resume">Webcast restored</string>
+    <!-- video -->
+    <!-- lod -->
+    <string name="gs_lod_is_on">Playing cast record now. Please end it to make sure the app work normally.</string>
+    <!-- as -->
+    <string name="gs_as_is_on_msg">Sharing desktop now and cannot publish your video temporarily.</string>
+    <string name="gs_package_no_camera_perssmion">Cannot access camera. Please allow in settings of your device.</string>
+
+    <!-- setting -->
+
+    <!-- beauty -->
+
+    <string name="gs_user_disable_chat">Disable chat</string>
+    <string name="gs_user_enable_chat">Enable chat</string>
+    <string name="gs_user_eject">Kick out</string>
+
+
+
+
+    <string name="gs_chat_host_join">(Admin)is in</string>
+    <string name="gs_chat_host_leave">(Admin)is out</string>
+    <string name="gs_chat_is_disable_to_chat">is disabled to chat</string>
+    <string name="gs_chat_is_alowed_to_chat">is allowed to chat</string>
+    <string name="gs_chat_is_kicked_out">is removed from the room by admin</string>
+    <string name="gs_chat_activity_start">activity starts</string>
+    <string name="gs_disable_somebody_chat">Do you want to mute him/her?</string>
+    <string name="gs_remove_somebody">Do you want to remove him/her?</string>
+    <string name="gs_chat_forbid">抱歉，你已被组织者禁言</string>
+    <string name="gs_as_other_begin">The live video will be interrupted if you end desktop sharing. Do you want to end?</string>
+    <string name="gs_as_is_on">Sharing desktop now...</string>
+    <string name="gs_as_video_active">The live video is restoring</string>
+    
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <!-- chat -->
+    <string name="brow_nh_cn">【emotion.smile.gif】</string>
+    <string name="brow_zj_cn">【emotion.goodbye.gif】</string>
+    <string name="brow_gx_cn">【emotion.laugh.gif】</string>
+    <string name="brow_sx_cn">【emotion.cry.gif】</string>
+    <string name="brow_tkl_cn">【feedback.quickly.png】</string>
+    <string name="brow_tml_cn">【feedback.slowly.png】</string>
+    <string name="brow_zt_cn">【feedback.agreed.png】</string>
+    <string name="brow_fd_cn">【feedback.against.gif】</string>
+    <string name="brow_gz_cn">【feedback.applaud.png】</string>
+    <string name="brow_fn_cn">【emotion.angerly.gif】</string>
+    <string name="brow_zdsk_cn">【feedback.think.png】</string>
+    <string name="brow_wl_cn">【emotion.nod.gif】</string>
+    <string name="brow_lh_cn">【emotion.lh.gif】</string>
+    <string name="brow_bs_cn">【emotion.bs.gif】</string>
+    <string name="brow_yw_cn">【emotion.question.gif】</string>
+    <string name="brow_dx_cn">【rose.down.png】</string>
+    <string name="brow_xh_cn">【rose.up.png】</string>
+    <string name="brow_lw_cn">【chat.gift.png】</string>
+    <string name="emotion_bz_cn">【emotion.bz.gif】</string>
+    <string name="emotion_fd_cn">【emotion.fd.gif】</string>
+    <string name="emotion_gg_cn">【emotion.gg.gif】</string>
+    <string name="emotion_gz_cn">【emotion.gz.gif】</string>
+    <string name="emotion_hx_cn">【emotion.hx.gif】</string>
+    <string name="emotion_jk_cn">【emotion.jk.gif】</string>
+    <string name="emotion_jy_cn">【emotion.jy.gif】</string>
+    <string name="emotion_kb_cn">【emotion.kb.gif】</string>
+    <string name="emotion_kl_cn">【emotion.kl.gif】</string>
+    <string name="emotion_ll_cn">【emotion.ll.gif】</string>
+    <string name="emotion_qd_cn">【emotion.qd.gif】</string>
+    <string name="emotion_qh_cn">【emotion.qh.gif】</string>
+    <string name="emotion_qq_cn">【emotion.qq.gif】</string>
+    <string name="emotion_rb_cn">【emotion.rb.gif】</string>
+    <string name="emotion_se_cn">【emotion.se.gif】</string>
+    <string name="emotion_tx_cn">【emotion.tx.gif】</string>
+    <string name="emotion_xu_cn">【emotion.xu.gif】</string>
+    <string name="emotion_yun_cn">【emotion.yun.gif】</string>
+
+    <string name="brow_nh_cn_text">[Hello]</string>
+    <string name="brow_zj_cn_text">[Goodbye]</string>
+    <string name="brow_gx_cn_text">[Smile]</string>
+    <string name="brow_sx_cn_text">[Sad]</string>
+    <string name="brow_tkl_cn_text">[Too fast]</string>
+    <string name="brow_tml_cn_text">[Too slow]</string>
+    <string name="brow_zt_cn_text">[Agree]</string>
+    <string name="brow_fd_cn_text">[Oppose]</string>
+    <string name="brow_gz_cn_text">[Applaud]</string>
+    <string name="brow_fn_cn_text">[Angry]</string>
+    <string name="brow_zdsk_cn_text">[Pondering]</string>
+    <string name="brow_wl_cn_text">[Bored]</string>
+    <string name="brow_lh_cn_text">[Sweating]</string>
+    <string name="brow_bs_cn_text">[Despise]</string>
+    <string name="brow_yw_cn_text">[Doubt]</string>
+    <string name="brow_dx_cn_text">[Wilt]</string>
+    <string name="brow_xh_cn_text">[Flower]</string>
+    <string name="brow_lw_cn_text">[Gift]</string>
+    <string name="emotion_bz_cn_text">[Silence]</string>
+    <string name="emotion_fd_cn_text">[Strive]</string>
+    <string name="emotion_gg_cn_text">[Embarrassed]</string>
+    <string name="emotion_gz_cn_text">[Applause]</string>
+    <string name="emotion_hx_cn_text">[Shy]</string>
+    <string name="emotion_jk_cn_text">[Panic]</string>
+    <string name="emotion_jy_cn_text">[Surprised]</string>
+    <string name="emotion_kb_cn_text">[Pick Nose]</string>
+    <string name="emotion_kl_cn_text">[Whimper]</string>
+    <string name="emotion_ll_cn_text">[Sob]</string>
+    <string name="emotion_qd_cn_text">[Hammer]</string>
+    <string name="emotion_qh_cn_text">[Thumbs Up]</string>
+    <string name="emotion_qq_cn_text">[Pucker]</string>
+    <string name="emotion_rb_cn_text">[Thumbs Down]</string>
+    <string name="emotion_se_cn_text">[Drooling]</string>
+    <string name="emotion_tx_cn_text">[Chunkle]</string>
+    <string name="emotion_xu_cn_text">[Shhh]</string>
+    <string name="emotion_yun_cn_text">[Hypnotized]</string>
+    <string name="chat_context_max">Up to 512 characters are enabled.</string>
+    <string name="chat_context_avatar_max">Up to 20 emoticons can be inserted.</string>
+</resources>
